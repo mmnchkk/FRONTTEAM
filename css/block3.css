@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap');
+
+.block-three-text {
+   a:before {
+      width: 100%;
+   }
+}
+
+.flex-block-three {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   max-width: 1253px;
+   width: 100%;
+   h2 {
+      font-size: 40px;
+      font-weight: normal;
+   }
+   h3 {
+      font-size: 33px;
+      font-weight: normal;
+   }
+   .flex-one div, .flex-two div {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 43px;
+   }
+   .flex-one div div, .flex-two div div, .flex-three div div, .flex-four div div {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      p {
+         font-family: "Montserrat", serif;
+         font-weight: 500;
+         font-size: 33px;
+         line-height: 33px;
+         margin: 0;
+      }
+   }
+   .flex-one img, .flex-two img {
+      width: 388px;
+      height: 388px;
+   }
+   .flex-three div, .flex-four div {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 33px;
+   }
+   .flex-three img, .flex-four img {
+      width: 288px;
+      height: 288px;
+   }
+}
+
+.adaptive-block-three {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   max-width: 1253px;
+   width: 100%;
+   h2 {
+      font-size: 40px;
+      font-weight: normal;
+   }
+   .html-str-info {
+      background-color: #101010;
+      border-radius: 30px;
+      height: 230px;
+      padding: 15px 26px;
+      display: flex;
+      justify-content: center;
+      gap: 89px;
+      font-family: "JetBrains Mono", serif;
+      font-size: 27px;
+      font-weight: 500;
+      line-height: 29px;
+      p {
+         margin-top: 15px;
+      }
+   }
+   .purple {
+      color: #9803FC;
+   }
+   i {
+      font-weight: 300;
+   }
+   .indent {
+      margin-left: 67px;
+   }
+}
+
+.course {
+   .block2-2 {
+      background-color: #7b00ce;
+   }
+   .block3-3 {
+      background-color: #6100a1;
+   }
+   .block4-4:hover {
+      background-color: #49007a;
+   }
+}
+
+@media (min-width: 961px) and (max-width: 1280px) {
+   .flex-block-three {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 90%;
+      h2 {
+         width: 820px;
+         font-size: 25px;
+         line-height: 30px;
+       }
+      h3 {
+         font-size: 23px;
+      }
+      .flex-one div, .flex-two div {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 43px;
+      }
+      .flex-one div div, .flex-two div div, .flex-three div div, .flex-four div div {
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+         p {
+            font-size: 23px;
+            line-height: 23px;
+         }
+      }
+      .flex-one img, .flex-two img {
+         width: 238px;
+         height: 238px;
+      }
+      .flex-three div, .flex-four div {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 33px;
+      }
+      .flex-three img, .flex-four img {
+         width: 175px;
+         height: 175px;
+      }
+   }
+   .adaptive-block-three {
+      display: none;
+   }
+}
+
+@media (min-width: 761px) and (max-width: 960px) {
+   .flex-block-three, .adaptive-block-three {
+      display: none;
+   }
+}
+
+@media (min-width: 481px) and (max-width: 760px) {
+   .flex-block-three, .adaptive-block-three {
+      display: none;
+   }
+}
+
+@media (max-width: 480px) {
+   .flex-block-three, .adaptive-block-three {
+      display: none;
+   }
+}

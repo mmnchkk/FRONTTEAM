@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontteam - блок 3</title>
+    <link rel="stylesheet" href="css/block3.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/ICON.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="head">
+        <div class="head-wrap">
+            <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+            <div class="head-info">
+                <ul class="menu montserrat">
+                    <a href="#content"><li>Обучение</li></a>
+                    <a href="#info"><li>Основа</li></a>
+                    <a href="#course"><li>Курс</li></a>
+                </ul>
+                <a href="block4.html"><button class="btn-head button">Блок 4 -></button></a>
+            </div>
+        </div>
+    </header>
+    <main class="main back">
+        <div class="main-wrap">
+            <div class="block-three">
+                <div class="block-three-text">
+                    <h1 class="ps2p">Блок 3</h1>
+                    <h2 class="ps2p">CSS (Style Sheets)</h2>
+                    <p class="montserrat">Для стилей и дизайна нам понадобится CSS 3. </p>
+                    <a href="https://developer.mozilla.org/ru/docs/Web/CSS" class="montserrat" target="_blank">Ссылка на подробную информацию</a>
+                </div>
+                <img src="img/block3/Vector.svg" alt="Курс" class="block-one-img">
+            </div>
+            <div id="content"></div>
+            <div class="video-block-three">
+                <h2 class="ps2p">Обучающие видео про основы CSS</h2>
+                <video width="1252" controls preload="auto" poster="img/block3/prewier.svg">
+                    <source src="video/block1.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div id="info"></div>
+            <div class="info-block-three">
+                <div class="html-strs-mini">
+                    <div>
+                        <h2 class="ps2p">Вставка текста</h2>
+                        <div class="html-str-mini">
+                            <div class="html-str-info-mini">
+                                <p>
+                                    <span class="purple">color</span> — <i>цвет текста</i><br>
+                                    <span class="purple">font-size</span> — <i>размер шрифта</i><br>
+                                    <span class="purple">font-family</span> — <i>шрифт</i><br>
+                                    <span class="purple">font-weight</span> — <i>толщина</i><br>
+                                    <span class="purple">text-align</span> — <i>выравнивание текста</i><br>
+                                    <span class="purple">line-height</span> — <i>интервал текста</i><br>
+                                </p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div>
+                        <h2 class="ps2p">Фон</h2>
+                        <div class="html-str-mini">
+                            <div class="html-str-info-mini">
+                                <p>
+                                    <span class="purple">background-color</span> — <i>цвет фона</i><br>
+                                    <span class="purple">background-image</span> — <i>фоновая картинка</i><br>
+                                    <span class="purple">background-repeat</span> — <i>повторение картинки фона</i><br>
+                                    <span class="purple">background-position</span> — <i>позиция фона</i><br>
+                                </p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="html-strs-mini">
+                    <div>
+                        <h2 class="ps2p">Форматирование</h2>
+                        <div class="html-str-mini">
+                            <div class="html-str-info-mini">
+                                <p>
+                                    <span class="purple">width</span> — <i>ширина (min/max)</i><br>
+                                    <span class="purple">height</span> — <i>высота (min/max)</i><br>
+                                    <span class="purple">margin</span> — <i>внешние отступы</i><br>
+                                    <span class="purple">padding</span> — <i>внутренние отступы</i><br>
+                                    <span class="purple">border</span> — <i>вид границы элемента</i><br>
+                                    <span class="purple">border-radius</span> — <i>скругление углов</i><br>
+                                </p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div>
+                        <h2 class="ps2p">Отображение</h2>
+                        <div class="html-str-mini">
+                            <div class="html-str-info-mini">
+                                <p>
+                                    <span class="purple">display</span> — <i>положение элементов</i><br>
+                                    <span class="purple">flex-direction</span> — <i>колонна/ряд</i><br>
+                                    <span class="purple">align-items</span> — <i>выравнивание по вертикали</i><br>
+                                    <span class="purple">justify-content</span> — <i>выравнивание по горизонтали</i><br>
+                                </p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="flex-block-three">
+                <h2 class="ps2p">Flex-box контейнеры</h2>
+                <div class="flex-one">
+                    <h3 class="ps2p">justify-content</h3>
+                    <div>
+                        <div><img src="img/block3/flex/j-cont/center.svg" alt=""><p>center</p></div>
+                        <div><img src="img/block3/flex/j-cont/flex-end.svg" alt=""><p>flex-end</p></div>
+                        <div><img src="img/block3/flex/j-cont/flex-start.svg" alt=""><p>flex-start</p></div>
+                        <div><img src="img/block3/flex/j-cont/space-between.svg" alt=""><p>space-between</p></div>
+                        <div><img src="img/block3/flex/j-cont/space-around.svg" alt=""><p>space-around</p></div>
+                        <div><img src="img/block3/flex/j-cont/space-evenly.svg" alt=""><p>space-evenly</p></div>
+                    </div>
+                </div>
+                <div class="flex-two">
+                    <h3 class="ps2p">align-content</h3>
+                    <div>
+                        <div><img src="img/block3/flex/a-cont/center.svg" alt=""><p>center</p></div>
+                        <div><img src="img/block3/flex/a-cont/stretch.svg" alt=""><p>stretch</p></div>
+                        <div><img src="img/block3/flex/a-cont/flex-start.svg" alt=""><p>flex-start</p></div>
+                        <div><img src="img/block3/flex/a-cont/space-between.svg" alt=""><p>space-between</p></div>
+                        <div><img src="img/block3/flex/a-cont/space-around.svg" alt=""><p>space-around</p></div>
+                        <div><img src="img/block3/flex/a-cont/flex-end.svg" alt=""><p>flex-end</p></div>
+                    </div>
+                </div>
+                <div class="flex-three">
+                    <h3 class="ps2p">align-items</h3>
+                    <div>
+                        <div><img src="img/block3/flex/a-items/start.svg" alt=""><p>start</p></div>
+                        <div><img src="img/block3/flex/a-items/center.svg" alt=""><p>center</p></div>
+                        <div><img src="img/block3/flex/a-items/end.svg" alt=""><p>end</p></div>
+                        <div><img src="img/block3/flex/a-items/stretch.svg" alt=""><p>stretch</p></div>
+                    </div>
+                </div>
+                <div class="flex-four">
+                    <h3 class="ps2p">flex-direction</h3>
+                    <div>
+                        <div><img src="img/block3/flex/fd/row.svg" alt=""><p>row</p></div>
+                        <div><img src="img/block3/flex/fd/column.svg" alt=""><p>column</p></div>
+                        <div><img src="img/block3/flex/fd/row-reverse.svg" alt=""><p>row-reverse</p></div>
+                        <div><img src="img/block3/flex/fd/column-reverse.svg" alt=""><p>column-reverse</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="adaptive-block-three">
+                <h2 class="ps2p">Адаптивность</h2>
+                <div class="html-str-info">
+                    <p>
+                        <span class="purple">@media</span>&ensp;&#40;<span class="purple">min-width:</span>&ensp;__&ensp;<i>and</i>&ensp;<span class="purple">max-width:</span>&ensp;__&#41;&ensp;&#123;<br>
+                        <span class="indent"><i>ваши стили - более детальная верстка для конкретных размеров</i></span><br>
+                        &#125;<br>
+                        <br>
+                        <span class="purple">@media</span>&ensp;&#40;<span class="purple">max-width:</span>&ensp;__&#41;&ensp;&#123;<br>
+                        <span class="indent"><i>ваши стили - более универсальная верстка с процентыми соотношениями</i></span><br>
+                        &#125;
+                    </p>
+                </div>
+            </div>
+            <div class="links-block-three">
+                <h2 class="ps2p">Полезные ссылки:</h2>
+                <ol class="links-list montserrat">
+                    <li><a href="https://skillbox.ru/media/code/chto_takoe_css/" target="_blank">Что такое CSS и с чем его едят</a></li>
+                    <li><a href="https://kokoc.com/blog/chto-takoe-adaptivnaya-vyorstka-sajta-primery/" target="_blank">Адаптивная верстка</a></li>
+                    <li><a href="https://habr.com/ru/companies/macloud/articles/557796/" target="_blank">Интересные трюки для становления ниндзя в работе</a></li>
+                    <li><a href="https://ru.hexlet.io/blog/posts/zanyatnye-fakty-pro-css" target="_blank">Занятные факты, которые могут вас удивить</a></li>
+                </ol>
+            </div>
+            <div class="content-block-three">
+                <h2 class="ps2p">Краткое содержание видео:</h2>
+                <ol class="content-list montserrat">
+                    <li>Ознакомление с основными стилями, применяемыми в работе</li>
+                    <li>Изучение правильной структуры содержание стилей, виды различных вариантов верстки кода</li>
+                    <li>Продолжение верстки, добавление стилей к контенту</li>
+                    <li><a href="https://github.com/mmnchkk/css.git" target="_blank">Код с урока</a></li>
+                </ol>
+            </div>
+            <div id="course"></div>
+            <div class="course">
+                <div class="blocks">
+                    <a href="block1.html">
+                        <div class="block1-1">
+                            <div class="ps2p">
+                                <h3>Блок 1</h3>
+                                <h4>Visual Studio</h4>
+                            </div>
+                            <div class="montserrat">
+                                <p>В какой программе нам придется работать в процессе курса? Как ее адаптировать под себя?</p> 
+                                <p>Фишки Visual Studio Code</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="block2.html">
+                        <div class="block2-2">
+                            <div class="ps2p">
+                                <h3>Блок 2</h3>
+                                <h4>HTML</h4>
+                            </div>
+                            <div class="montserrat">
+                                <p>С чего начать? Что такое теги? Как создать основу  под верстку? Какие конструкции использовать?</p>
+                                <p>Теги HTML</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="block3.html">
+                        <div class="block3-3">
+                            <div class="ps2p">
+                                <h3>Блок 3</h3>
+                                <h4>CSS</h4>
+                            </div>
+                            <div class="montserrat">
+                                <p>Как придать цвета и стиля к твоему сайту? Как глянуть его на телефоне или планшете?</p> 
+                                <p>Адаптив и стили CSS</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="block4.html">
+                        <div class="block4-4">
+                            <div class="ps2p">
+                                <h3>Блок 4</h3>
+                                <h4>GitHub</h4>
+                            </div>
+                            <div class="montserrat">
+                                <p>Как показать сайт своим друзьям, семье или второй половинке? Как рассказать всем о своем опыте?</p> 
+                                <p>Публикуем на GitHub</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- <input type="button" class="random" value="Перейти" onclick='document.getElementById("stat").disabled = false;'>
+                <input disabled type="button" id="stat" class="random1" value="2 блок"> -->
+            </div>
+            <div class="adaptive-full ps2p">
+                <p>Более подробная версия курса ждет вас в десктопной версии -></p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-wrap">
+            <div class="contacts">
+                <a href="https://t.me/+P29fYBxYKaVhMjli" target="_blank"><img src="img/tg.svg" alt="tg"></a>
+                <a href="https://vk.com/front_team_52"><img src="img/vk.svg" alt="vk" target="_blank"></a>
+                <a href=""><img src="img/gh.svg" alt="GitHub" target="_blank"></a>
+            </div>
+            <div class="footer-logo">
+                <p class="montserrat">Наша команда любит вас!</p>
+                <a href="index.html"><img src="img/FT.svg" alt="FT"></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+        
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
