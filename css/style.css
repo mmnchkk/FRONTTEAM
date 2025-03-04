@@ -647,6 +647,7 @@ body {
     }
     iframe {
       width: 830px;
+      height: 518px;
     }
     .input {
       font-size: 25px;
@@ -957,6 +958,7 @@ body {
     }
     iframe {
       width: 630px;
+      height: 393px;
     }
     .input {
       border-radius: 12px;
@@ -1290,6 +1292,7 @@ body {
     }
     iframe {
       width: 430px;
+      height: 269px;
     }
     .input {
       border-radius: 12px;
@@ -1625,6 +1628,7 @@ body {
     }
     iframe {
       width: 300px;
+      height: 187px;
     }
     .input {
       border-radius: 12px;
