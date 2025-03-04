@@ -613,7 +613,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  
+  width: 1252px;
   h2 {
      font-size: 40px;
      font-weight: normal;
@@ -639,6 +639,7 @@ body {
      font-weight: 700;
   }
 }
+
 @media (min-width: 961px) and (max-width: 1280px) {
   .head, .main, .footer {
     .button {
@@ -920,7 +921,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-
+    width: 820px;
     h2 {
       width: 820px;
       font-size: 25px;
@@ -940,6 +941,7 @@ body {
        text-decoration: underline;
     }
   }
+
   .adaptive-full {
     display: block;
     width: 650px;
@@ -1254,7 +1256,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-
+    width: 650px;
     h2 {
       width: 650px;
       font-size: 25px;
@@ -1274,6 +1276,7 @@ body {
        text-decoration: underline;
     }
   }
+
   .adaptive-full {
     display: block;
     width: 650px;
@@ -1589,7 +1592,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-
+    width: 450px;
     h2 {
       width: 450px;
       font-size: 25px;
@@ -1922,7 +1925,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-
+    width: 250px;
     h2 {
       width: 250px;
       font-size: 25px;
